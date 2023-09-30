@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Omnes-Bold'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Omnes-Regular'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Regular.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Omnes-Regular';
+}
+
+.gen-navbar {
+    height: 15vh;
+    width: 100vw;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.name-logo-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+
+.register-page-icon {
+    height: 55px;
+    transform: translateY(8px);
+    margin-left: 5rem;
+}
+
+.nav-title {
+    color: #0038A8;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: 'Omnes-Bold';
+}
+
+.nav-ul {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10rem;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+.user-avatar {
+    border: 3px solid #FF6B00;
+    border-radius: 250px;
+    margin-left: 15px;
+}
+
+.user-name {
+    font-family: 'Omnes-Bold';
+    font-size: 20px;
+}
+
+.guide-background {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    background-position: center;
+}
+
+.left-div {
+    width: 70vw;
+    height: 100%;
+    float: right;
+}
+
+.guide-speech-bubble {
+    height: 15vw;
+    width: 40vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 100px;
+}
+
+
+
+.guide-statement {
+    transform: translate(45px, 15px);
+    font-size: 1.75rem;
+    margin-top: 40px;
+}
+
+.guide-btn {
+    width: 7.6vw;
+    transform: translate(45px, 5px);
+    margin-top: 60px;
+    height: 2.5rem;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #859CFF;
+    background-color: #859CFF;
+    color: white;
+    font-family: 'Omnes-Bold';
+    border-bottom: 6px solid #7187E4;
+}
+
+.guide-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #859CFF;
+
+}
+
+.right-div {
+    width: 30vw;
+    height: 85vh;
+}
+
+.guide-avatar {
+    margin-top: 50px;
+    height: 550px;
+}

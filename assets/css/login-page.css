@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Omnes-Bold'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Omnes-Regular'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Regular.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Omnes-Regular';
+}
+
+.login-page-container {
+    background-color: #5FBCD4; 
+    height: 100vh; 
+    width: 100vw; 
+    display: flex; 
+}
+
+.login-page-title-description {
+    width: 60vw; 
+    height: 100vh;
+}
+
+.title-image-wrapper {
+    height: 20vh; 
+    width: 60vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 75px
+}
+
+.login-page-icon {
+    height: 90px;
+}
+
+.login-page-title {
+    font-size: 2.5em; 
+    transform: translateY(-18px); 
+    margin-left: 10px; 
+    color: white;
+    font-family: 'Omnes-Bold';
+}
+
+.login-page-description {
+    height: 20vh; 
+    width: 60vw; 
+    text-align: center; 
+    justify-content: center; 
+    padding-top: 35px
+}
+
+.login-description {
+    font-size: 2.5em; color: white;
+    font-family: 'Omnes-Bold';
+
+}
+
+.login-page-background {
+    height: 60vh; 
+    width: 100vw; 
+    background-image: url('../images/backgrounds/login_background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.login-page-form-container {
+    height: 100vh; 
+    width: 40vw; 
+    padding-top: 20vh
+}
+
+.form-wrapper {
+    background-color: white; 
+    height: 60vh; 
+    width: 30vw; 
+    border-radius: 25px; 
+    padding: 25px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.form-title {
+    text-align: center;  margin-bottom: 20px
+}
+
+.title {
+    font-size: 1.35em;
+    font-family: 'Omnes-Bold';
+}
+
+.dashed-line {
+    border-top: 2px dashed #000; width: 100%; margin: 10px 0; margin-bottom: 30px;
+}
+
+.email-wrapper {
+    margin-bottom: 20px
+}
+
+.password-wrapper {
+    margin-bottom: 40px
+}
+
+.login-label {
+    font-size: 1.5em
+}
+
+.login-input {
+    height: 2em; 
+    width: 100%; 
+    border-radius: 10px; 
+    border: 1px solid black; 
+    padding: 10px; 
+    font-size: 1.5em
+}
+
+.login-btn {
+    padding: 10px; 
+    width: 100%; 
+    font-size: 1.25em; 
+    border-radius: 15px; 
+    border: 1px solid #859CFF; 
+    color: white; 
+    background-color: #859CFF; 
+    border-bottom: 5px solid #7187E4; 
+    cursor: pointer;
+}
