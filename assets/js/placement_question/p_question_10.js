@@ -22,5 +22,5 @@ h2Elements.forEach((element) => {
 
 nextButton.addEventListener('click', function () {
     // Redirect to the desired page (e.g., "asd.html")
-    window.location.href = 'p_question_3.html';
+    window.location.href = 'p_question_2.html';
 });
