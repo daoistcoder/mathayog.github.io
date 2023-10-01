@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Omnes-Bold'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Omnes-Regular'; /* You can specify any name you want */
+    src: url('../fonts/Omnes-Regular.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Omnes-Regular';
+}
+
+.gen-navbar {
+    height: 15vh;
+    width: 100vw;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.name-logo-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+
+.register-page-icon {
+    height: 55px;
+    transform: translateY(8px);
+    margin-left: 5rem;
+}
+
+.nav-title {
+    color: #0038A8;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: 'Omnes-Bold';
+}
+
+.nav-ul {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10rem;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+.user-avatar {
+    border: 3px solid #FF6B00;
+    border-radius: 250px;
+    margin-left: 15px;
+}
+
+.user-name {
+    font-family: 'Omnes-Bold';
+    font-size: 20px;
+}
+
+.guide-background {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.left-div {
+    width: 40vw;
+    height: 70vh;
+}
+
+.right-div {
+    width: 60vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-top: 45px;
+    margin-left: 10rem;
+}
+
+.crash-statement {
+    font-size: 26px;
+    margin-left: 60px;
+    margin-top: 45px;
+    font-weight: 900;
+    color: #4b4b4b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-button {
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 15vh;
+    padding-top: 35px;
+}
+
+
+.avatar-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-left: auto;
+    width: 15%;
+    border-radius: 15px;
+    font-family: 'Omnes-Bold';
+    background-color: #859CFF;
+    color: white;
+    border: 1px solid #859CFF;
+    border-bottom: 6px solid #7187E4;
+    margin-right: 85px;
+    float: right;
+}
+
+.avatar-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #859CFF;
+
+}
