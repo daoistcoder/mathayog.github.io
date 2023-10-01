@@ -42,39 +42,78 @@
     font-family: 'Omnes-Bold';
 }
 
-.avatar-selection-background {
+.nav-ul {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10rem;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+.user-avatar {
+    border: 3px solid #FF6B00;
+    border-radius: 250px;
+    margin-left: 15px;
+}
+
+.user-name {
+    font-family: 'Omnes-Bold';
+    font-size: 20px;
+}
+
+.guide-background {
     height: 85vh;
     width: 100vw;
     background-position: center;
-    background-size: cover;
+}
+
+.upper-div {
+    display: flex; 
+    height: 25vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-speech-bubble {
+    height: 100px;
+    width: 500px;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-.avatar-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    height: 70vh;
-    width: 100vw;
-}
-
-.avatar-element {
-    background-color: white;
-    width: 250px;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.avatar-element:hover {
-    cursor: pointer;
-}
-
-.avatar-name {
+.cat-speech {
+    font-size: 1.5rem;
     font-family: 'Omnes-Bold';
-    color: #4b4b4b;
-    margin-top: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: #4b4b4b;;
 }
+
+.lower-div {
+    display: flex;
+    height: 45vh;
+    width: 100vw;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+
+
+
 
 .bottom-button {
     display: none;
@@ -107,9 +146,29 @@
 
 }
 
+.avatar-element {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 325px;
+}
 
+.avatar-element:hover {
+    cursor: pointer;
+}
+
+.avatar-name {
+    font-family: 'Omnes-Bold';
+    color: #4b4b4b;
+    margin-top: 10px;
+}
 
 .avatar-element.selected {
     border: 5px solid #859CFF;
     background-color: #f0f0f0;
+}
+
+.grayscale {
+    filter: grayscale(100%);
 }
